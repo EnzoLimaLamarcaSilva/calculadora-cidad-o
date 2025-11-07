@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./calcularVFC.js "defer></script>
+    <title>calcular Financias</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html">Principal</a>
+            <a href="./VFC.html">Valor futuro de capital</a>
+            <a href="./ADR.html">Aplicação com depósitos regulares</a>
+            <a href="./FPF.html">Financiamento com prestações fixas</a>
+        </nav>
+    </header>
+    <main>
+<h1>Calcular o valor futuro de capital</h1><br><br>
+<label for="mesesVFC">Digite o número de meses</label><br><br>
+<input type="text" id="mesesVFC" placeholder=" Digite o número de meses"><br><br>
+
+<label for="taxaVFC">DDigite a taxa de juros mensal (Em %)</label><br><br>
+<input type="text" id="taxaVFC" placeholder=" Digite a taxa de juros mensal (Em %)"><br><br>
+
+<label for="capAtual">Digite a capital atual
+    (Depósito realizado no início do mês)</label><br><br>
+<input type="text" id="capAtual" placeholder=" Digite a capital atual
+(Depósito realizado no início do mês)"><br><br>
+<button onclick="principal()">calcular</button>
+<div id="resultado"></div><br><br><br><br>
+
+    </main>
+    <footer>
+        <small>
+            By Enzo &copy; &trade;
+        </small>
+    </footer>
+</body>
+</html>
